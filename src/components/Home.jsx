@@ -1,4 +1,5 @@
 import avatarLogo from '../images/2x2.jpg'
+import Resume from "../files/RESUME_TAN.pdf"
 
 function Home() {
     var i = 0;
@@ -60,8 +61,8 @@ function Home() {
                 </div>
 
 
-                    <a href="../files/RESUME_TAN.pdf" download="RESUME_TAN.pdf" target="_blank">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4" target="_blank">Download CV</button>
+                    <a href={Resume} download="RESUME_TAN.pdf" target="_blank">
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Download CV</button>
                     </a>
                 
             </div>
