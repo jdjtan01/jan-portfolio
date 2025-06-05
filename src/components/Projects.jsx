@@ -15,7 +15,7 @@ function Projects() {
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1 text-body-emphasis">E-Commerce Website</h1>
-          <p class="lead">A dynamic e-commerce platform tailored for clothing businesses, allowing them to showcase and sell their products online. With a user-friendly shopping cart, both business owners and customers can easily manage selected items. The platform also features secure, hassle-free payment processing to ensure a smooth and trustworthy checkout experience.</p>
+          <p class="lead">A dynamic e-commerce platform tailored for clothing businesses, allowing them to showcase and sell their products online. With a user-friendly shopping cart, both business owners and customers can easily manage selected items. The platform also features secure, hassle-free payment processing to ensure a smooth and trustworthy checkout experience. Made using ReactJS</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
 
             <a href="https://ecommerce-beta-six-77.vercel.app/" target="_blank">
@@ -38,7 +38,7 @@ function Projects() {
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Keeper (A notes taking app)</h1>
-          <p class="lead">Keeper is a similar app to Google's note taking app "Google Keep" where users can list their notes to be remembered and done in their leisure. Made using Vite React</p>
+          <p class="lead">Keeper is a similar app to Google's note taking app "Google Keep" where users can list their notes to be remembered and done in their leisure. Made using Vite React.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
             <a href="https://jdjtan01.github.io/keeper-app/" target="_blank">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Demo</button>

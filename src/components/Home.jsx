@@ -13,6 +13,8 @@ function Home() {
     }
     }
 
+    // setTimeout(typeWriter, 3000);
+
     return (
         <div name="landing-page" id="landing-page" class="px-4 py-5 my-5 text-center container">
                
