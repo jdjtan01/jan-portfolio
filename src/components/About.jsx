@@ -13,7 +13,7 @@ import MySQL from "../images/msql-logo.png"
 
 function About() {
     return (
-        <div name="about-page" id="about-page">
+        <div name="about-page" id="about-page" class="mb-4">
             <div class="container col-sm-12 pt-4">
 
                 <div class="row justify-content-md-center mx-0 px-0 align-items-center">
@@ -32,7 +32,7 @@ function About() {
             <div class="container px-4 py-5 col-sm-12" id="icon-grid">
                 <h2 class="pb-2 border-bottom">My Tools</h2> 
 
-                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 py-5"> 
+                <div class="row row-cols-3 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 py-5"> 
 
                     <div class="col d-flex align-items-center pb-3 tool-div">
                         <img src={HTML} class="img-fluid mx-1" alt="html"  width="45px"/>
@@ -79,7 +79,7 @@ function About() {
                     
                     <div class="col d-flex align-items-center pb-3 tool-div"><img src={Mongo} class="img-fluid mx-1" alt="html"  width="45px"/>
                         <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MongoDB</h3>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Mongo</h3>
                         </div>
                     </div> 
 
