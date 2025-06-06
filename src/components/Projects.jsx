@@ -6,7 +6,7 @@ import famtravtrack from "../images/travel-tracker-ss.png"
 
 function Projects() {
     return (
-        <div name="projects-page" class="pt-5">
+        <div name="projects-page" class="pt-5  col-sm-12">
 
             <h1 class="container">Check out some of my works:</h1>
 

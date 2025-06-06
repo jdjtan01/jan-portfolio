@@ -20,12 +20,12 @@ function Home() {
         <div name="landing-page" id="landing-page" class="px-4 py-5 my-5 text-center container">
                
             <div class="row justify-content-md-center mx-0 px-0 align-items-center">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-9">
                     <h1 id="hey-there" class="display-4 fw-bold text-body-emphasis">Hey There!</h1>
                     <p id="my-description" class="lead mb-0">My name is <strong> Jan Daniele Tan</strong>.</p>
                     <p id="my-description-2" class="lead"></p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-sm-12">
                     <img id="my-avatar" class="mb-2" src={avatarLogo} alt="my_avatar" width="250" height="250"/>
                 </div>
             </div>
