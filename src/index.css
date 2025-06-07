@@ -167,6 +167,7 @@ header {
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
   
+  animation-delay: 3s;
 }
 
 /* The typing effect */
@@ -182,44 +183,68 @@ header {
 }
 
 
+
+.anim-fade-in {
+  animation-name: fade-in;
+  animation-duration: 4s;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0}
+  50% {opacity: 0}
+  75% {opacity: 0}
+  100% {opacity: 1}
+}
+
+
+
+
+
+
 /* Hey There CSS */
-
-.matrix-text {
-  color: #000000;
-  font-size: 80px;
-  font-family: monospace;
-  position: relative;
-  text-shadow: 0 0 5px #000000, 0 0 1px #000000, 0 0 5px #000000;
-  z-index: 2; /* Ensure it stays above the rain effect */
+  .split-text-container {
+    display: flex;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    overflow: hidden;
 }
 
-.matrix-text::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  animation: glitch 2s infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  transform: translate(-2px, -2px);
-  color: #000000;
-  text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
+.text-part.left {
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+    margin-right: 1.5rem;
+}
 
-/* Glitch effect for the text */
-@keyframes glitch {
-  0%, 100% {
-    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-    transform: translate(0);
-  }
-  33% {
-    clip-path: polygon(0 0, 100% 0, 100% 15%, 0 15%);
-    transform: translate(-5px, -5px);
-  }
-  66% {
-    clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
-    transform: translate(5px, 5px);
-  }
+.text-part.right {
+    transform: translateX(200%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }

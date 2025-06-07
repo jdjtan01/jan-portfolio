@@ -21,12 +21,14 @@ function Home() {
                
             <div class="row justify-content-md-center mx-0 px-0 align-items-center">
                 <div class="col-lg-4 col-sm-9">
-                    <div class="matrix-container">
-                    <h1 id="hey-there" class="display-4 fw-bold text-body-emphasis matrix-text" data-text="Hey There!">Hey There!</h1>
+                    <div class="split-text-container">
+                        <span class="text-part left">HEY</span>
+                        <span class="text-part right">THERE!</span>
+                    {/* <h1 id="hey-there" class="display-4 fw-bold text-body-emphasis matrix-text" data-text="Hey There!">Hey There!</h1> */}
                     </div>
                     
                         <p id="my-description" class="lead mb-0">My name is <strong> Jan Daniele Tan</strong>.</p>
-                    <div class="typewriter">
+                    <div class="typewriter anim-fade-in">
                         <p id="my-description-2" class="lead">I'm a Full-Stack Web Developer</p>
                     </div>
                     
