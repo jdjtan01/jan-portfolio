@@ -19,7 +19,7 @@ function About() {
                 <div class="row justify-content-md-center mx-0 px-0 align-items-center">
                     <h1 class="lead display-4 pb-2 border-bottom text-center text-sm-start mb-5">About Me</h1>
                     <div class="col-lg-5 col-md-9 col-sm-12">
-                        <p class="display-6 text-sm-end mx-4">Hi! Again, I'm Jan, nice to meet you! Please take a look around!</p>
+                        <p class="display-6 text-sm-end mx-4">Hi!👋 Again, I'm Jan, nice to meet you! Please take a look around!</p>
                     </div>
 
                     <div div class="col-lg-5 col-md-9 col-sm-12">
@@ -30,7 +30,7 @@ function About() {
             </div>
 
             <div class="container px-4 py-5 col-sm-12" id="icon-grid">
-                <h2 class="pb-2 border-bottom">My Tools</h2> 
+                <h2 class="pb-2 border-bottom">My Tools🧰</h2> 
 
                 <div class="row row-cols-3 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 py-5"> 
 

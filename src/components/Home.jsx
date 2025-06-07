@@ -2,17 +2,17 @@ import avatarLogo from '../images/2x2.jpg'
 import Resume from "../files/RESUME_TAN.pdf"
 
 function Home() {
-    var i = 0;
-    var txt = "I'm a Full-Stack Web Developer"; /* The text */
-    var speed = 90; /* The speed/duration of the effect in milliseconds */
+    // var i = 0;
+    // var txt = "I'm a Full-Stack Web Developer"; /* The text */
+    // var speed = 90; /* The speed/duration of the effect in milliseconds */
 
-    window.onload = function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("my-description-2").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-    }
+    // window.onload = function typeWriter() {
+    // if (i < txt.length) {
+    //     document.getElementById("my-description-2").innerHTML += txt.charAt(i);
+    //     i++;
+    //     setTimeout(typeWriter, speed);
+    // }
+    // }
 
     // setTimeout(typeWriter, 3000);
 
@@ -21,8 +21,15 @@ function Home() {
                
             <div class="row justify-content-md-center mx-0 px-0 align-items-center">
                 <div class="col-lg-4 col-sm-9">
-                    <h1 id="hey-there" class="display-4 fw-bold text-body-emphasis">Hey There!</h1>
-                    <p id="my-description" class="lead mb-0">My name is <strong> Jan Daniele Tan</strong>.</p>
+                    <div class="matrix-container">
+                    <h1 id="hey-there" class="display-4 fw-bold text-body-emphasis matrix-text" data-text="Hey There!">Hey There!</h1>
+                    </div>
+                    
+                        <p id="my-description" class="lead mb-0">My name is <strong> Jan Daniele Tan</strong>.</p>
+                    <div class="typewriter">
+                        <p id="my-description-2" class="lead">I'm a Full-Stack Web Developer</p>
+                    </div>
+                    
                     <p id="my-description-2" class="lead"></p>
                 </div>
                 <div class="col-lg-3 col-sm-12">
@@ -32,8 +39,8 @@ function Home() {
             
             {/* Buttons */}
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                <div class="dropdown nav-link px-2 link-body-emphasis">
-                    <button type="button" class="btn btn-outline-primary btn-lg">My Contacts</button>
+                <div class="dropdown nav-link link-body-emphasis">
+                    <button type="button" class="btn btn-outline-primary btn-lg px-2">My Contacts📩</button>
                     <div class="dropdown-content">
                                  <a>My Email: 
                                     <div class="copy-link">
@@ -62,7 +69,7 @@ function Home() {
 
 
                     <a href={Resume} download="RESUME_TAN.pdf" target="_blank">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Download CV</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-2">Download CV📑</button>
                     </a>
                 
             </div>
