@@ -5,12 +5,41 @@ import simongame from "../images/the-simon-game-ss.png"
 import famtravtrack from "../images/travel-tracker-ss.png"
 import bookSearch from "../images/book-search-ss.png"
 import mernBlog from "../images/mern-blog-ss.png"
+import foodDell from "../images/food-del-ss.png"
 
 function Projects() {
     return (
         <div name="projects-page" class="pt-5  col-sm-12">
 
             <h1 class="container">Check out some of my works:</h1>
+
+    
+    <div class="container my-5 project">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Food Delivery</h1>
+          <p class="lead">A dynamic food delivery website where users can add their choice of food to their own cart for delivery. Food check-out and payment has been made safe and hassle-free thru Stripe. With the use of the admin functionality, business owners can easily track and update orders, and add and remove products from their menu. </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+
+            <a href="https://food-del-1fuq.onrender.com/" target="_blank">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Demo</button>
+            </a>
+
+            <a href="https://food-del-admin-c7jf.onrender.com/" target="_blank">
+            <button type="button" class="btn btn-success btn-lg px-2 me-md-2 fw-bold">Admin</button>
+            </a>
+
+            <a href="https://github.com/jdjtan01/food-del.git" target="_blank">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Code</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg project-img">
+            <a href="https://food-del-1fuq.onrender.com/" target="_blank"><img class="rounded-lg-3" src={foodDell} alt="website_pic" width="700"/></a>
+        </div>
+      </div>
+    </div>
+
 
     
     <div class="container my-5 project">
